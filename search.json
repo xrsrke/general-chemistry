@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "chemical_bonding.html",
+    "href": "chemical_bonding.html",
+    "title": "chemical_bonding",
+    "section": "",
+    "text": "A simple API for chemical bonding\n\n\nclass ChemicalBonding:\n    def __init__(self):\n        pass\n    \n    def electronegativity(self):\n        pass\n    \n    def classify_bond(self):\n        pass"
+  },
+  {
+    "objectID": "chemical_reaction.html",
+    "href": "chemical_reaction.html",
+    "title": "chemical_reaction",
+    "section": "",
+    "text": "A simple API for chemical_reaction"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "general-chemistry",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.\nThis package built on top of …"
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "general-chemistry",
+    "section": "Install",
+    "text": "Install\npip install general_chemistry"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "general-chemistry",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "card.html",
+    "href": "card.html",
+    "title": "template",
+    "section": "",
+    "text": "A simple API for creating and using playing cards"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "foo\n\n foo ()\n\n\nclass Universal:\n    def __init__(self):\n        pass\n    \n    @staticmethod\n    def conservation_of_mass(\n        initial_mass, # the initial mass\n        final_mass): # the final mass\n        '''Check conservation of mass'''\n        # source: https://en.wikipedia.org/wiki/Conservation_of_mass\n        print('works')\n        if initial_mass == final_mass:\n            print('true')\n            return True\n        else:\n            return False\n    \n    @staticmethod\n    def conservation_of_mass(initial_energy, final_energy):\n        '''Check conservation of energy'''\n        assert initial_energy, final_energy\n\n\nuniversal = Universal()\n\n\nuniversal.conservation_of_mass(11, 11) == True\n\nFalse\n\n\n\nUniversal.conservation_of_mass(11, 11)\n\n\nUniversal.conservation_of_mass(11, 11) == True\n\nFalse\n\n\n\n#show_doc(Universal.conservation_of_mass)"
+  },
+  {
+    "objectID": "electromagnetic_radiation.html",
+    "href": "electromagnetic_radiation.html",
+    "title": "electromagnetic_radiation",
+    "section": "",
+    "text": "A simple API for …\n\n\nclass ElecRatiation:\n    \n    def __init__(self):\n        pass\n    \n    def electron_make_transition(self, from_energy_level, to_energy_level):\n        '''Calculate the differnece energy that electron make transition between energy level'''\n        pass"
+  }
+]
