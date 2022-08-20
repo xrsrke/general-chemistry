@@ -1,0 +1,9 @@
+website:
+  sidebar:
+    contents:
+      - index.ipynb
+      - 00_core.ipynb
+      - 00_template.ipynb
+      - 01_electromagnetic_radiation.ipynb
+      - 02_chemical_bonding.ipynb
+      - 03_chemical_reaction.ipynb
